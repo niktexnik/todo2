@@ -37,5 +37,5 @@ font-weight: bold;
     font-weight: normal;
 }
 .done{
-    text-decoration: line-through;
+    text-decoration: red line-through;
 }
