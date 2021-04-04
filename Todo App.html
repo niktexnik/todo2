@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="todojs copy.js"></script>
+   <title>Todo App</title>
+</head>
+
+<body>
+
+   <div id="root">
+      <div class="todo-app">
+         <div class="app-header d-flex">
+            <h1>My Todo list</h1>
+            <div class="count">
+               Total count tasks:
+               <span id="total">N/A</span>
+            </div>
+         </div>
+         <form name="my" class="top-panel d-flex">
+            <input placeholder="Type your task" required type="text" class="form-control search-input" id="maininput">
+            <div class="btn-group">
+               <button type="submit" class="btn btn-info">Add</button>
+            </div>
+         </form>
+         <ul class="list-group todo-list" id="list">
+         </ul>
+      </div>
+   </div>
+   </div>
+</body>
+
+</html>
